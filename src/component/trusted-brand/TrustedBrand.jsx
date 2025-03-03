@@ -1,20 +1,14 @@
 import { Card,CardContent } from "@/components/ui/card";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
+
 
 export default function TrustedBrands() {
     const brands = [
-      { name: "ChatBot AI", img: "src/assets/brands/chatbot.png" },
-      { name: "IPTV Smarter", img: "src/assets/brands/dhl.svg" },
-      { name: "Google", img: "src/assets/brands/ceat.svg" },
-      { name: "CEAT", img: "src/assets/brands/google.svg" },
-      { name: "DHL", img: "src/assets/brands/iptv.png" },
-      { name: "DHL", img: "src/assets/brands/moneda.svg" },
+      { name: "ChatBot AI", img: "assets/brands/chatbot.png" },
+      { name: "IPTV Smarter", img: "assets/brands/dhl.svg" },
+      { name: "Google", img: "assets/brands/ceat.svg" },
+      { name: "CEAT", img: "assets/brands/google.svg" },
+      { name: "DHL", img: "assets/brands/iptv.png" },
+      { name: "DHL", img: "assets/brands/moneda.svg" },
       
 
     ];

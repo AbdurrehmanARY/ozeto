@@ -19,11 +19,11 @@ function Quotes() {
       </h1>
         </div>
 
-        {/* Right Form Section */}
+      
         <div className="md:w-2/3 mt-10 md:mt-0   sm:w-full">
           <div className="bg-[#212529]/90 p-8 rounded-2xl shadow-lg">
             <form className="space-y-4">
-              {/* Name Field */}
+              
               <div>
                 <label className="block text-sm font-medium">Name</label>
                 <input
@@ -33,8 +33,7 @@ function Quotes() {
                 />
               </div>
 
-              {/* Email Field */}
-              <div>
+                         <div>
                 <label className="block text-sm font-medium font-unbounded">Email</label>
                 <input
                   type="email"
@@ -43,7 +42,7 @@ function Quotes() {
                 />
               </div>
 
-              {/* Message Field */}
+           
               <div>
                 <label className="block text-sm font-medium">Message</label>
                 <textarea

@@ -2,7 +2,7 @@ import { Facebook } from 'lucide-react'
 import React from 'react'
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-// import { FaLinkedinIn } from "react-icons/fa";
+
 import { FaLinkedin } from "react-icons/fa6";
 
 import { AiFillInstagram } from "react-icons/ai";
@@ -20,23 +20,23 @@ function Footer2() {
     
     <footer className="my-5 bg-[#212529]/90 py-8">
       <div className="container mx-auto flex flex-col items-center space-y-4 ">
-        {/* Follow Us Text */}
+      
         <p className="text-orange-500 font-semibold text-lg">Follow us:</p>
 
-        {/* Social Icons */}
+       
         <div className="flex space-x-4">
 
 {icons.map((item,index)=>(
   <button className="p-2 bg-transparent border border-gray-600 rounded-xl text-white hover:bg-orange-600 hover:scale-120 duration-500 ">
             
-            {/* <FaTwitter  /> */}
+           
 {<item.icon size={24} className='text-gray-300 hover:text-black' />}
           </button>))}
 
          
         </div>
 
-        {/* Newsletter Subscription */}
+      
         <div className="flex items-center space-x-2">
           <input
             type="email"

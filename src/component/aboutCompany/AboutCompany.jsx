@@ -22,20 +22,26 @@ export default function AboutSection() {
       content:
         "To empower businesses through innovative technology solutions, delivering excellence in every line of code. We strive to transform complex challenges into elegant, efficient solutions that drive real-world impact.",
     },
-    
+    ,
+    {
+      id: "03",
+      title: "Our vision",
+      content:
+        "To be a global leader in digital innovation, recognized for creating reliable and transformative solutions that elevate businesses and enrich user experiences. We strive to inspire progress and make technology accessible, seamless, and meaningful for everyone.",
+    },
   ]
 
   return (
     <div className="min-h-screen bg-transparent text-white py-16 px-4 md:px-6">
       <div className="max-w-[1400px] mx-auto">
-        
-     
-        <Batch text="BENEFITS"/>
-        
+
+
+        <Batch text="BENEFITS" />
+
         <h1 className="text-4xl md:text-4xl  mb-12 font-normal font-unbounded">About our Company</h1>
 
         <div className="lg:flex lg:gap-16">
-        
+
           <div className="lg:w-1/2 mb-12 lg:mb-0">
             <div className="space-y-8 max-w-2xl font-sans">
               <p className="text-gray-400 text-xl leading-relaxed font-sans">
@@ -57,27 +63,27 @@ export default function AboutSection() {
             </div>
           </div>
 
-         
+
           <div className="lg:w-1/2">
             <div className="space-y-4">
 
-{sections.map((section)=>(
+              {sections.map((section) => (
 
-  <Accordion type="single" collapsible className="w-full border-b  border-gray-800 font-normal  " >
-  <AccordionItem  value="item-1"  >
-    <AccordionTrigger className=" no-underline border border-white/10 hover:no-underline focus:no-underline flex items-center justify-between py-6 px-6 bg-white/10 hover:bg-white/20 rounded-3xl  hover:pl-9 hover:text-orange-500 duration-500 ">
-    <div className="flex items-center gap-4  font-light">
-                  <span className=" text-sm text-white  ">{section.id} </span>
-                  <span className="text-sm ">{section.title}</span>
-                </div>
-                </AccordionTrigger>
-    <AccordionContent className="px-6 py-8 font-sans text-gray-400 leading-relaxed text-base bg-white/10 border-x border-b border-t-0 border-white/10 rounded-b-3xl        ">
-    {section.content}    
-        </AccordionContent>
-  </AccordionItem>
-  
-</Accordion>
-))}
+                <Accordion type="single" collapsible className="w-full border-b  border-gray-800 font-normal  " >
+                  <AccordionItem value="item-1"  >
+                    <AccordionTrigger className=" no-underline border border-white/10 hover:no-underline focus:no-underline flex items-center justify-between py-6 px-6 bg-white/10 hover:bg-white/20 rounded-3xl  hover:pl-9 hover:text-orange-500 duration-500 ">
+                      <div className="flex items-center gap-4  font-light">
+                        <span className=" text-sm text-white  ">{section.id} </span>
+                        <span className="text-sm ">{section.title}</span>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent className="px-6 py-8 font-sans text-gray-400 leading-relaxed text-base bg-white/10 border-x border-b border-t-0 border-white/10 rounded-b-3xl        ">
+                      {section.content}
+                    </AccordionContent>
+                  </AccordionItem>
+
+                </Accordion>
+              ))}
 
             </div>
           </div>

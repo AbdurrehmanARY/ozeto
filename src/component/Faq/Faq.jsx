@@ -25,17 +25,6 @@ const faqs = [
       "Absolutely! We have experience integrating various APIs and third-party tools to enhance your platform.",
   },
 
-
-
-
-
-
-
-
-
-
-
-
   {
     question: "What is your experience with AI/ML projects?",
     answer:
@@ -65,10 +54,6 @@ const faqs = [
     answer:
       "We offer flexible pricing, including fixed rates, hourly models, and custom packages based on your project’s needs.",
   },
-  
-
-
-
 
 ];
 

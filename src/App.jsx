@@ -19,8 +19,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <div className="min-h-screen bg-black  text-white mx-auto w-full ">
-      <div className=' bg-[url(src/assets/layer1.png)]  bg-center bg-repeat w-full px-8   '>
+      <div className="min-h-screen bg-black  text-white mx-auto w-screen ">
+      <div className=' bg-[url(assets/layer1.png)]  bg-center bg-repeat w-full px-8   '>
 
       <Navbar />
       <LandingImage/>

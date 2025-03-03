@@ -24,7 +24,7 @@ export default function BoxTransition() {
           >
             <div className="w-full h-95">
               <img
-                data-src="https://ozeito.com/asset/img/agency/age_1.jpg"
+               
                 className="w-full h-full object-cover rounded-4xl"
                 alt=""
                 src="https://ozeito.com/asset/img/agency/age_2.jpg"

@@ -30,20 +30,20 @@ const features = [
 ]
 const featuireIn = [
   {
-    loc: "src/assets/feature_logo/feat_1.png ",
+    loc: "assets/feature_logo/feat_1.png ",
     label: ""
   },
   {
-    loc: "src/assets/feature_logo/feat_2.png ",
+    loc: "assets/feature_logo/feat_2.png ",
     label: ""
   }, {
-    loc: "src/assets/feature_logo/feat_3.png ",
+    loc: "assets/feature_logo/feat_3.png ",
     label: ""
   }, {
-    loc: "src/assets/feature_logo/feat_4.png ",
+    loc: "assets/feature_logo/feat_4.png ",
     label: ""
   }, {
-    loc: "src/assets/feature_logo/feat_5.png ",
+    loc: "assets/feature_logo/feat_5.png ",
     label: ""
   },
 
@@ -58,10 +58,7 @@ function Founder() {
             <div className="inline-flex font-sans items-center justify-center px-4 py-1 rounded-full text-orange-500 text-xs font-semibold bg-[#1A1A1A]">
               About Founder
             </div>
-            {/* <div className="inline-flex font-sans items-center justify-center px-4 py-1 rounded-full text-orange-500 text-xs font-semibold bg-[#1A1A1A]">
-          BRANDS COLLABORATIONS
-          </div> */}
-          {/* <Batch text="ABOUT FOUNDER"/> */}
+         
             <h2 className="text-4xl font-normal mt-4">Meet The Founder</h2>
 
 
@@ -76,7 +73,7 @@ function Founder() {
             <div className="absolute top-42  left-62 transform -translate-x-1/2 bg-orange-500 w-100 h-80 rounded-t-full z-0 " />
 
             <img
-              src="src/assets/team/founder.png"
+              src="assets/team/founder.png"
               alt="Muhammad Farooq"
               className="w-100 h-auto ml-12 rounded-lg relative z-10"
             />
@@ -99,7 +96,7 @@ function Founder() {
               Muhammad Farooq, the visionary behind Ozeito, combines over seven years of experience in UI/UX design and development. His passion for merging creativity with technology fuels Ozeito’s mission to deliver scalable, user-friendly solutions. Driven by a client-first approach, Jason’s leadership and innovative mindset continue to shape the company’s success, helping businesses turn their ideas into impactful, real-world products.
             </p>
 
-            \
+            
             <div className="flex flex-wrap gap-4 mt-6">
 
               {features.map((feature, index) => (
